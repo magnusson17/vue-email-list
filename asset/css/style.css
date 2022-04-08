@@ -1,0 +1,69 @@
+/*MULTI-USE CLASSES*/
+.fs_0_7em {
+    font-size: 0.7em;
+}
+
+.hover_pointer {
+    cursor: pointer;
+}
+
+.overflow_y_auto {
+    overflow-y: auto;
+}
+
+.overflow_h {
+    overflow: hidden;
+}
+
+.h_100vh {
+    height: 100vh;
+}
+
+.max_w_100 {
+    max-width: 100%;
+}
+
+/*SPECIFIC CLASSES*/
+.sfondo {
+    height: 100vh;
+    background-image: 
+    linear-gradient(to bottom,
+    #009688 0px,
+    #009688 15vh,
+    #dddbd1 15vh,
+    #d2dbdc 100%
+    );
+    padding: 30px;
+}
+
+.sfondo_chat {
+    background-color: gray;
+}
+
+.img_profile {
+    width: 80px;
+    height: 80px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.sent_class {
+    background-color: green;
+}
+
+.received_class {
+    background-color: white;
+}
+
+.prova {
+    height: 300px;
+}
+
+.scroll_menu_class {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    top: -30px;
+}
