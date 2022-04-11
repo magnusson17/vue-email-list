@@ -21,7 +21,7 @@
 
         <div>
             <ul>
-                <li v-for="(element, index) in mailArray">{{mailArray[index]}}</li>
+                <li v-for="(element, index) in mailArray" v-if="mailArray.length == 10">{{element}}</li>
             </ul>
         </div>
     
